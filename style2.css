@@ -1,0 +1,142 @@
+body{
+    background-image: url("/slike/comp1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x:hidden;
+    background-attachment: fixed;
+    }
+    .btn{
+        background-color: rgb(255, 255, 255);
+        color: #3d6ed8;
+        font-size: 18px;
+    }
+    .btn:hover{
+        background-color: rgb(116, 113, 113);
+    }
+
+    nav{
+        background-color: rgba(0, 0, 0, 0.575);
+    }
+
+    .jumbotron{
+        background-color: rgb(255, 255, 255) ;
+    }
+
+    .cont2{
+        background-color: rgba(0, 0, 0, 0.692);
+    }
+
+    h1{
+        color: #3d6ed8;
+    }
+    hr{
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+        background-color: #3d6ed8;
+    }
+
+    /* ------------- Ikonice u footeru ------------*/
+    .fab{
+        color: #3d6ed8;
+    }
+    .fab:hover{
+        transform: scale(1.5);
+        -webkit-transition: transform 0.3s;
+    }
+   /* ------------------- Containeri / Sredina strane --------------------- */
+
+   /* Slika */
+
+   #profil{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;  
+  }
+
+  /* ---*-------- Information  ---------------- */
+  #about i{
+    font-size: 40px;
+    padding: 20px 20px 20px 20px;
+
+  }
+  #about ul{
+    list-style-type:none;
+    font-size: 24px ; 
+  }
+
+  /* ---------- Ikonice --------- */
+  .fa-calendar{
+    color: rgb(236, 91, 6);
+  }
+  .fa-calendar:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+  }
+  
+.fa-home {
+    color: red;
+  }
+.fa-home:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5);
+ }
+
+.fa-child{
+    color: rgb(255, 196, 0);
+  }
+  .fa-child:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+  }
+
+.fa-male{
+    color: rgb(12, 53, 129); 
+  }
+  .fa-male:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+  }
+
+  /* ------- Udemy hovers --------- */
+  .cs a{
+      color: black;  
+  }
+  .cs:hover{
+    transform: scale(1.2);
+    -webkit-transition: transform 0.3s;
+  }
+  .kursevi{
+      font-size: 20px;
+      color: black;
+      text-decoration: none;
+      margin-top: 0.5cm;
+  }
+  .kursevi:hover{
+    transform: scale(1.2);
+    -webkit-transition: transform 0.3s;
+    text-decoration: none; 
+  }
+  /*   */
+  small{
+      font-size: 16px;
+  }
+  /* --------- Ikonice ---------- */
+  .ikonice{
+      
+  }
+    .ikonice img{
+        height: 120px;
+    clip-path: circle(70% at 50% 50%);
+    float: left;
+}
+
